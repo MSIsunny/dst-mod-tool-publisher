@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p className='Title'>
-          dst-mod-tool-v{app_data.version}
+          {app_data.name}-v{app_data.version}
         </p>
         <img src={logo} className="App-logo" alt="logo" />
         <div className='Link-container'>
