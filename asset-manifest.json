@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/dst-mod-tool-publisher/static/css/main.d978042a.css",
-    "main.js": "/dst-mod-tool-publisher/static/js/main.abdab42d.js",
+    "main.js": "/dst-mod-tool-publisher/static/js/main.f8f1b506.js",
     "static/js/453.e47a0555.chunk.js": "/dst-mod-tool-publisher/static/js/453.e47a0555.chunk.js",
     "static/media/app_logo.png": "/dst-mod-tool-publisher/static/media/app_logo.0f6001f92380c9f63964.png",
     "index.html": "/dst-mod-tool-publisher/index.html",
     "main.d978042a.css.map": "/dst-mod-tool-publisher/static/css/main.d978042a.css.map",
-    "main.abdab42d.js.map": "/dst-mod-tool-publisher/static/js/main.abdab42d.js.map",
+    "main.f8f1b506.js.map": "/dst-mod-tool-publisher/static/js/main.f8f1b506.js.map",
     "453.e47a0555.chunk.js.map": "/dst-mod-tool-publisher/static/js/453.e47a0555.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d978042a.css",
-    "static/js/main.abdab42d.js"
+    "static/js/main.f8f1b506.js"
   ]
 }
