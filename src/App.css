@@ -1,21 +1,33 @@
+:root {
+    background-color: #282c34;
+    color: white;
+}
 
 .Title {
-    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+    margin: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .App {
+    background-color: #282c34;
     text-align: center;
+    color: white;
 }
 
 .App-logo {
-    height: 30vmin;
+    height: 100px;
     pointer-events: none;
 }
 
 .Link-container {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 50px;
     padding: 30px;
     align-items: center;
     justify-content: center;
@@ -29,7 +41,7 @@
 
 .App-header {
     background-color: #282c34;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,12 +50,58 @@
     color: white;
 }
 
-.App-link {
-    color: #61dafb;
-    /* padding: 10px;
-    border: 1px solid white;
-    border-radius: 10px; */
+
+.Platform-icon {
+    width: 50px;
+    height: 50px;
 }
+
+.App-link {
+    color: #ffffff;
+    text-decoration: none;
+
+    background-color: #2d323b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 125px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.App-link:hover {
+    background-color: #333842;
+}
+
+.Text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 60%;
+}
+
+.Text-content-title { 
+    font-size: 0.8em;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.Text-content-body { 
+    color: rgb(149, 149, 149);
+    font-size: 0.8em;
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.H-line {
+    border: 0.25px solid rgb(82, 82, 82);
+    width: 60%;
+}
+
+
 
 @keyframes App-logo-spin {
     from {
