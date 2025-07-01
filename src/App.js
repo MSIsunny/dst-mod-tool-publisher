@@ -28,9 +28,6 @@ function App() {
 
                 {/* h-line */}
                 <div className='H-line'/>
-
-
-
                 <div className='Text-content'>
                     <div className='Text-content-title'>1、这个工具可以做什么？</div>
                     <div className='Text-content-body'>
@@ -49,7 +46,6 @@ function App() {
                         &ensp;&ensp;可以将问题反馈给我，联系QQ:2380749795
                     </div>
                 </div>
-
                 {/* h-line */}
                 <div className='H-line'/>
 
@@ -79,6 +75,37 @@ function App() {
                     </a>
 
                 </div>
+
+                <div style={{
+                    height: '50px'
+                }}></div>
+
+                <div style={{
+                    fontSize: '1em',
+                    margin: '20px',
+                }}> 更新日志 </div>
+
+                {/* h-line */}
+                <div className='H-line'/>
+
+                <div className='Text-content'>
+                    <div className='Text-content-title'> 2025.07.01 V0.1.4 </div>
+                    <div className='Text-content-body'>
+                        &ensp;&ensp;修复了打包scml时可能出现的错误。
+                    </div>
+
+                    <div className='Text-content-title'> 2025.06.20 V0.1.3 </div>
+                    <div className='Text-content-body'>
+                        &ensp;&ensp;添加批量打包scml的功能；修复了打包scml时可能出现的错误；透明度始终为0的时间线将不会被打包。
+                    </div>
+                </div>
+
+                {/* h-line */}
+                <div className='H-line'/>
+
+                <div style={{
+                    height: '100px'
+                }}></div>
 
             </header>
         </div>
