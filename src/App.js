@@ -89,6 +89,11 @@ function App() {
                 <div className='H-line'/>
 
                 <div className='Text-content'>
+                    <div className='Text-content-title'> 2025.07.10 V0.1.5 </div>
+                    <div className='Text-content-body'>
+                        &ensp;&ensp;添加批量替换/删除symbol/layer的功能；添加从GIF以及序列图构建动画的功能；优化搜索筛选symbol/layer的性能表现；添加高亮显示选中的element的功能。
+                    </div>
+
                     <div className='Text-content-title'> 2025.07.01 V0.1.4 </div>
                     <div className='Text-content-body'>
                         &ensp;&ensp;修复了打包scml时可能出现的错误。
