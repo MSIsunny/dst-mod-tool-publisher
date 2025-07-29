@@ -91,7 +91,7 @@ function App() {
                 <div className='Text-content'>
                     <div className='Text-content-title'> 2025.07.17 V0.1.6 </div>
                     <div className='Text-content-body'>
-                        &ensp;&ensp;添加修改图片红点并保持动画效果不变的功能；内置人物参考动画，方便观察角色贴图是否错位；可以将本软件作为zip、tex、scml、xml等文件的打开方式（暂不支持mac系统）。
+                        &ensp;&ensp;添加修改图片红点并保持动画效果不变的功能；内置人物参考动画，方便观察角色贴图是否错位；可以将本软件作为zip、tex、scml、xml等文件的打开方式。
                     </div>
 
                     <div className='Text-content-title'> 2025.07.10 V0.1.5 </div>
