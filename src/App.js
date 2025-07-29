@@ -89,6 +89,26 @@ function App() {
                 <div className='H-line'/>
 
                 <div className='Text-content'>
+                    <div className='Text-content-title'> 2025.07.30 V0.1.7 </div>
+                    <div className='Text-content-body'>
+                        &ensp;&ensp;添加命令行使用方式：[APP路径] [输入路径] [输出路径] --[参数]，参数可选scml2zip或zip2scml。
+                    </div>
+                    <div className='Text-content-body'>
+                        &ensp;&ensp;添加导入spine动画功能（测试），支持3.8和4.2版本。被导入的json文件需要和图片文件夹同层级或在图片文件夹内。spine和饥荒动画对应的规则如下：
+                    </div>
+                    <div className='Text-content-body'>
+                        &ensp;&ensp;1、插槽名称 = [layer][-数字后缀]。
+                    </div>
+                    <div className='Text-content-body'>
+                        &ensp;&ensp;2、图片区域名称 = [symbol_name]-[frame_num]。
+                    </div>
+                    <div className='Text-content-body'>
+                        &ensp;&ensp;3、动画文件夹名称 = [bank_name]。
+                    </div>
+                    <div className='Text-content-body'>
+                        &ensp;&ensp;如果你不在意上述参数，那么也可以不按照这个规则命名。
+                    </div>
+
                     <div className='Text-content-title'> 2025.07.17 V0.1.6 </div>
                     <div className='Text-content-body'>
                         &ensp;&ensp;添加修改图片红点并保持动画效果不变的功能；内置人物参考动画，方便观察角色贴图是否错位；可以将本软件作为zip、tex、scml、xml等文件的打开方式。
