@@ -89,6 +89,11 @@ function App() {
                 <div className='H-line'/>
 
                 <div className='Text-content'>
+                    <div className='Text-content-title'> 2025.08.03 V0.1.8 </div>
+                    <div className='Text-content-body'>
+                        &ensp;&ensp;添加将动画导出到spine的功能；优化打包spine动画。
+                    </div>
+
                     <div className='Text-content-title'> 2025.07.30 V0.1.7 </div>
                     <div className='Text-content-body'>
                         &ensp;&ensp;添加命令行使用方式：[APP路径] [输入路径] [输出路径] --[参数]，参数可选scml2zip或zip2scml。
