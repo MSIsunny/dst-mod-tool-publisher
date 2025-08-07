@@ -55,7 +55,7 @@ function App() {
 
                     <a
                         className="App-link"
-                        href={`https://github.com/MSIsunny/dst-mod-tool-publisher/releases/download/dst-mod-tool-v${app_data.version}/win-dst-mod-tool.zip`}
+                        href={`https://gitee.com/LumineAether/dst-mod-tool-pub/releases/download/dst-mod-tool-v${app_data.version}/win-dst-mod-tool.zip`}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -66,7 +66,7 @@ function App() {
 
                     <a
                         className="App-link"
-                        href={`https://github.com/MSIsunny/dst-mod-tool-publisher/releases/download/dst-mod-tool-v${app_data.version}/macos-dst-mod-tool.zip`}
+                        href={`https://gitee.com/LumineAether/dst-mod-tool-pub/releases/download/dst-mod-tool-v${app_data.version}/macos-dst-mod-tool.zip`}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -89,6 +89,11 @@ function App() {
                 <div className='H-line'/>
 
                 <div className='Text-content'>
+                    <div className='Text-content-title'> 2025.08.08 V0.1.9 </div>
+                    <div className='Text-content-body'>
+                        &ensp;&ensp;动画工具添加操作历史面板，支持回溯30条操作记录，可以使用快捷键[Ctrl/Cmd + Z]快速撤销，[Ctrl/Cmd + Y]或[Ctrl/Cmd + Shift + Z]快速重做；修复了一些已知的问题。
+                    </div>
+
                     <div className='Text-content-title'> 2025.08.03 V0.1.8 </div>
                     <div className='Text-content-body'>
                         &ensp;&ensp;添加将动画导出到spine的功能；优化打包spine动画。
