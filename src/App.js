@@ -89,6 +89,11 @@ function App() {
                 <div className='H-line'/>
 
                 <div className='Text-content'>
+                    <div className='Text-content-title'> 2025.08.13 V0.1.10 </div>
+                    <div className='Text-content-body'>
+                        &ensp;&ensp;优化和修复了一些已知的问题。
+                    </div>
+
                     <div className='Text-content-title'> 2025.08.08 V0.1.9 </div>
                     <div className='Text-content-body'>
                         &ensp;&ensp;动画工具添加操作历史面板，支持回溯30条操作记录，可以使用快捷键[Ctrl/Cmd + Z]快速撤销，[Ctrl/Cmd + Y]或[Ctrl/Cmd + Shift + Z]快速重做；修复了一些已知的问题。
