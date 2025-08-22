@@ -89,6 +89,11 @@ function App() {
                 <div className='H-line'/>
 
                 <div className='Text-content'>
+                    <div className='Text-content-title'> 2025.08.22 V0.2.0 </div>
+                    <div className='Text-content-body'>
+                        &ensp;&ensp;动画工具添加高亮选中元素以及拖动框选功能，可以进行平移、旋转、缩放、复制、粘贴等操作；添加快捷键Tab快速切换视图；添加对熔炉密林动画和纹理图的支持；现在导出动画为zip时默认覆盖同名文件；添加命令行参数--fixbuild，打包zip时删除人物原始通道。
+                    </div>
+
                     <div className='Text-content-title'> 2025.08.13 V0.1.10 </div>
                     <div className='Text-content-body'>
                         &ensp;&ensp;优化和修复了一些已知的问题。
