@@ -89,6 +89,11 @@ function App() {
                 <div className='H-line'/>
 
                 <div className='Text-content'>
+                    <div className='Text-content-title'> 2025.08.28 V0.2.1 </div>
+                    <div className='Text-content-body'>
+                        &ensp;&ensp;优化缩放操作，现在可以单独缩放某一个轴向，也可以整体等比例缩放(按住Shift)；选中一个或多个元素后，按上/下箭头按键可以调整图层顺序；现在可以在SymbolFrame面板预览图片(小眼睛图标)，并且可以将图片直接拖入动画视口；添加中英文语言切换功能。
+                    </div>
+
                     <div className='Text-content-title'> 2025.08.22 V0.2.0 </div>
                     <div className='Text-content-body'>
                         &ensp;&ensp;动画工具添加高亮选中元素以及拖动框选功能，可以进行平移、旋转、缩放、复制、粘贴等操作；添加快捷键Tab快速切换视图；添加对熔炉密林动画和纹理图的支持；现在导出动画为zip时默认覆盖同名文件；添加命令行参数--fixbuild，打包zip时删除人物原始通道。
