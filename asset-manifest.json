@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/dst-mod-tool-publisher/static/css/main.bbce7af1.css",
-    "main.js": "/dst-mod-tool-publisher/static/js/main.fe5a85a4.js",
+    "main.js": "/dst-mod-tool-publisher/static/js/main.3d026262.js",
     "static/js/453.e47a0555.chunk.js": "/dst-mod-tool-publisher/static/js/453.e47a0555.chunk.js",
     "static/media/app_logo.png": "/dst-mod-tool-publisher/static/media/app_logo.0f6001f92380c9f63964.png",
     "static/media/apple.svg": "/dst-mod-tool-publisher/static/media/apple.4a291627c81acac982ed78dced673f76.svg",
     "index.html": "/dst-mod-tool-publisher/index.html",
     "static/media/win.svg": "/dst-mod-tool-publisher/static/media/win.74a7f30313b9f6b26c2c89175419c218.svg",
     "main.bbce7af1.css.map": "/dst-mod-tool-publisher/static/css/main.bbce7af1.css.map",
-    "main.fe5a85a4.js.map": "/dst-mod-tool-publisher/static/js/main.fe5a85a4.js.map",
+    "main.3d026262.js.map": "/dst-mod-tool-publisher/static/js/main.3d026262.js.map",
     "453.e47a0555.chunk.js.map": "/dst-mod-tool-publisher/static/js/453.e47a0555.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bbce7af1.css",
-    "static/js/main.fe5a85a4.js"
+    "static/js/main.3d026262.js"
   ]
 }
