@@ -3,6 +3,10 @@
     color: white;
 }
 
+* {
+    user-select: text;
+}
+
 .Title {
     display: flex;
     flex-direction: row;
@@ -20,7 +24,7 @@
 }
 
 .App-logo {
-    height: 100px;
+    height: 125px;
     pointer-events: none;
 }
 
@@ -50,7 +54,6 @@
     color: white;
 }
 
-
 .Platform-icon {
     width: 50px;
     height: 50px;
@@ -59,7 +62,7 @@
 .App-link {
     color: #ffffff;
     text-decoration: none;
-
+    font-size: 0.8em;
     background-color: #2d323b;
     display: flex;
     flex-direction: column;
@@ -68,6 +71,7 @@
     width: 125px;
     height: 125px;
     padding: 20px;
+    gap: 10px;
     border-radius: 50%;
 }
 
@@ -81,27 +85,105 @@
     align-items: flex-start;
     text-align: left;
     width: 60%;
+    user-select: text;
+    line-height: 1.5;
+    gap: 0px; /* Add spacing between title and body */
 }
 
-.Text-content-title { 
+.Text-content-title {
     font-size: 0.8em;
-    padding: 10px;
-    padding-bottom: 5px;
+    margin: 0; /* Remove margin to avoid extra space */
+    margin-top: 10px;
 }
 
-.Text-content-body { 
+.Text-content-body {
     color: rgb(149, 149, 149);
     font-size: 0.8em;
-    padding: 10px;
-    padding-top: 5px;
+    margin: 0; /* Remove margin to avoid extra space */
 }
+
+.code-block-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.code-block {
+    background-color: #1e1e1e;
+    color: #c9d1d9;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.8em;
+    padding: 5px 20px;
+    border-radius: 6px;
+    display: block;
+    white-space: pre-wrap;
+    margin: 5px;
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #30363d;
+    user-select: text;
+    line-height: 1.5;
+}
+
+.copy-button {
+    background-color: transparent;
+    color: #6a737d;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1em;
+    padding: 5px;
+    transition:
+        color 0.2s ease,
+        background-color 0.2s ease,
+        border-color 0.2s ease;
+    z-index: 10; /* Ensure button is above other elements */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy-button:hover {
+    color: #0366d6;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #6a737d;
+}
+
+.copy-success {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent gray */
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    opacity: 0;
+    transition:
+        opacity 0.3s ease,
+        transform 0.3s ease;
+    z-index: 1000; /* Ensure message is above all elements */
+    pointer-events: none; /* Prevent interaction with the message */
+    transform: translateY(-50%); /* Center vertically relative to mouse */
+}
+
+.copy-success.show {
+    opacity: 1;
+    transform: translateY(-50%) scale(1); /* Ensure smooth fade-out with scale reset */
+}
+/*
+.copy-button:hover {
+    background-color: #444b54;
+}*/
 
 .H-line {
     border: 0.25px solid rgb(82, 82, 82);
     width: 60%;
 }
-
-
 
 @keyframes App-logo-spin {
     from {
