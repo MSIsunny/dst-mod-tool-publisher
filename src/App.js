@@ -274,9 +274,9 @@ const SpineGuide = (
                 &ensp;&ensp;推荐按照规则命名，反之并不会导致打包失败
             </div>
 
-            <div className="Text-content-title"> 不支持网格功能 </div>
+            <div className="Text-content-title"> 现已支持网格功能 </div>
             <div className="Text-content-body">
-                &ensp;&ensp;不支持使用了网格的Spine动画，使用了网格的图片在打包时将被忽略
+                &ensp;&ensp;支持使用了网格的Spine动画，可以导出为zip动画包在游戏内使用
             </div>
         </div>
     </React.Fragment>
@@ -298,6 +298,11 @@ const ChangeLog = (
         <div className="H-line" />
 
         <div className="Text-content">
+            <div className="Text-content-title"> 2026.01.07 V0.3.0 </div>
+            <div className="Text-content-body">
+                &ensp;&ensp;支持打包含有网格(mesh)的Spine动画；优化了动画播放；优化了PNG和序列图的导出。
+            </div>
+
             <div className="Text-content-title"> 2025.12.29 V0.2.9 </div>
             <div className="Text-content-body">
                 &ensp;&ensp;支持导出APNG格式的动图；Anti-FollowSymbol功能支持限定num；打包Spine动画时，根据skin区分build；
