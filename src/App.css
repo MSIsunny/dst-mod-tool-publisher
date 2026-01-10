@@ -100,6 +100,7 @@
     color: rgb(149, 149, 149);
     font-size: 0.8em;
     margin: 0; /* Remove margin to avoid extra space */
+    text-indent: 1em;
 }
 
 .code-block-container {
@@ -193,4 +194,52 @@
     to {
         transform: rotate(360deg);
     }
+}
+
+/* Override and improvements for copy success tooltip to ensure it sits above the language toggle */
+.copy-success {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.85); /* Slightly darker for readability */
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    opacity: 0;
+    transition:
+        opacity 0.3s ease,
+        transform 0.3s ease;
+    z-index: 9999; /* Raised to be above language toggle and other UI */
+    pointer-events: none; /* Prevent interaction with the message */
+    transform: translateY(-50%); /* Center vertically relative to mouse */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.copy-success.show {
+    opacity: 1;
+    transform: translateY(-50%) scale(1); /* Ensure smooth fade-out with scale reset */
+}
+
+/* Language toggle (top-right) styles */
+.lang-toggle-container {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 9000;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.lang-toggle {
+    background-color: #2d323b;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 6px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.lang-toggle:hover {
+    background-color: #3a4047;
 }
