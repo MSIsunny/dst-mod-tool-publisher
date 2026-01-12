@@ -86,7 +86,7 @@ const translations = {
             entries: [
                 {
                     date: "2026.01.07 V0.3.0",
-                    body: "支持打包含有网格(mesh)的Spine动画；优化了动画播放；优化了PNG和序列图的导出。",
+                    body: "支持打包含有网格(mesh)的Spine动画；优化了动画播放；优化了PNG和GIF的导出。",
                 },
                 {
                     date: "2025.12.29 V0.2.9",
@@ -199,7 +199,7 @@ const translations = {
             packtex_title: "Pack png to tex and xml",
             unpacktex_title: "Unpack tex to png",
             splitatlas_title: "Slice images according to xml",
-            note: "(Note: Ensure all input and output file paths are absolute paths, such as `/Users/username/path/to/file`.)",
+            note: "(Note: Ensure all input and output file paths are absolute paths)",
             examples: {
                 scml2zip: "dst-mod-tool.exe input.scml output.zip --scml2zip",
                 zip2scml: "dst-mod-tool.exe input.zip output.scml --zip2scml",
@@ -214,10 +214,10 @@ const translations = {
             title: "FAQ",
             q_gif_export: "How to export an animation as GIF or frames?",
             a_gif_export:
-                "In the Animation list, select 'Export GIF' or 'Export Frames' from the additional options.",
+                "In the Animation list, select 'Export GIF / Sequence' from the additional options.",
             q_edge_incomplete: "Exported GIF/frames have incomplete edges",
             a_edge_incomplete:
-                "In the Bank list, select 'Recompute Bounding Box' from the additional options.",
+                "In the Bank list, select 'Calc Collision' from the additional options.",
             q_scml_offset: "Decompiled Scml animation has slight offsets",
             a_scml_offset:
                 "Spriter doesn't support skew transforms of images, so some DST animations can't be represented perfectly. Use the official Bank or decompile to Spine as a workaround.",
@@ -233,7 +233,7 @@ const translations = {
                 "Export the Spine animation as a JSON file, and make sure it is in the same directory as the images folder. Then, drag the JSON file into the tool.",
             rules_title: "Naming & packing rules",
             rules: [
-                "1. Slot name = [layer][-numeric-suffix]",
+                "1. Slot name = [layer][-num-suffix]",
                 "2. Region name = [symbol_name]-[frame_num]",
                 "3. Animation folder name = [bank_name]",
             ],
@@ -251,7 +251,7 @@ const translations = {
             entries: [
                 {
                     date: "2026.01.07 V0.3.0",
-                    body: "Support packing Spine animations that include meshes; improved animation playback; improved PNG and frame export.",
+                    body: "Support packing Spine animations that include meshes; improved animation playback; improved PNG and GIF export.",
                 },
                 {
                     date: "2025.12.29 V0.2.9",
