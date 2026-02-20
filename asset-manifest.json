@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dst-mod-tool-publisher/static/css/main.94ce93b8.css",
-    "main.js": "/dst-mod-tool-publisher/static/js/main.bed579e8.js",
+    "main.js": "/dst-mod-tool-publisher/static/js/main.5d277ba9.js",
     "static/js/341.5a9c7e9c.chunk.js": "/dst-mod-tool-publisher/static/js/341.5a9c7e9c.chunk.js",
     "static/media/app_logo.png": "/dst-mod-tool-publisher/static/media/app_logo.17fe35339156a733c5a2.png",
     "static/media/linux.svg": "/dst-mod-tool-publisher/static/media/linux.fc4f9f06fd76361b5c0ac6e365f4d721.svg",
@@ -9,11 +9,11 @@
     "index.html": "/dst-mod-tool-publisher/index.html",
     "static/media/win.svg": "/dst-mod-tool-publisher/static/media/win.74a7f30313b9f6b26c2c89175419c218.svg",
     "main.94ce93b8.css.map": "/dst-mod-tool-publisher/static/css/main.94ce93b8.css.map",
-    "main.bed579e8.js.map": "/dst-mod-tool-publisher/static/js/main.bed579e8.js.map",
+    "main.5d277ba9.js.map": "/dst-mod-tool-publisher/static/js/main.5d277ba9.js.map",
     "341.5a9c7e9c.chunk.js.map": "/dst-mod-tool-publisher/static/js/341.5a9c7e9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94ce93b8.css",
-    "static/js/main.bed579e8.js"
+    "static/js/main.5d277ba9.js"
   ]
 }
