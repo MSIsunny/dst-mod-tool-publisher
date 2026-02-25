@@ -66,6 +66,10 @@
       "title": "更新日志",
       "entries": [
         {
+          "date": "2026.02.21 V0.3.2",
+          "body": "支持ETC2压缩格式的纹理；支持从FSB文件中提取音频；支持根据FEV文件重构FMOD工程。"
+        },
+        {
           "date": "2026.02.05 V0.3.1",
           "body": "修复和优化了一些问题。"
         },
@@ -219,6 +223,10 @@
     "changelog": {
       "title": "Change Log",
       "entries": [
+        {
+          "date": "2026.02.21 V0.3.2",
+          "body": "Support textures in ETC2 format; support audio extraction from FSB files; support reconstructing FMOD projects from FEV files."
+        },
         {
           "date": "2026.02.05 V0.3.1",
           "body": "Fixes and optimizations."
