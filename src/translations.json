@@ -66,6 +66,10 @@
       "title": "更新日志",
       "entries": [
         {
+          "date": "2026.02.26 V0.3.3",
+          "body": "视图窗口允许选择背景颜色。"
+        },
+        {
           "date": "2026.02.21 V0.3.2",
           "body": "支持ETC2压缩格式的纹理；支持从FSB文件中提取音频；支持根据FEV文件重构FMOD工程。"
         },
@@ -223,6 +227,10 @@
     "changelog": {
       "title": "Change Log",
       "entries": [
+        {
+          "date": "2026.02.26 V0.3.3",
+          "body": "The viewport supports selecting background color."
+        },
         {
           "date": "2026.02.21 V0.3.2",
           "body": "Support textures in ETC2 format; support audio extraction from FSB files; support reconstructing FMOD projects from FEV files."
