@@ -214,7 +214,7 @@ function DownloadButtons({ t }) {
                     {t("download.macos")}
                 </a>
 
-                <a
+                {/* <a
                     className="App-link"
                     href={`https://gitee.com/LumineAether/dst-mod-tool-pub/releases/download/dst-mod-tool-v${version}/linux-dst-mod-tool.zip`}
                     target="_blank"
@@ -226,7 +226,7 @@ function DownloadButtons({ t }) {
                         alt="linux"
                     />
                     {t("download.linux")}
-                </a>
+                </a>*/}
             </div>
         </React.Fragment>
     );
@@ -546,8 +546,8 @@ function App() {
                 <SpineGuide t={tWithLang} />
                 {Hspace(50)}
 
-                <CommandLineGuide t={tWithLang} />
-                {Hspace(50)}
+                {/* <CommandLineGuide t={tWithLang} />
+                {Hspace(50)}*/}
 
                 <ChangeLog t={tWithLang} />
                 {Hspace(50)}
